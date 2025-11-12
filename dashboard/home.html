@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Bot Dashboard</title>
+    <style>
+        body {
+            background: #f0f0f0;
+            font-family: Arial;
+            padding: 30px;
+            text-align: center;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            max-width: 600px;
+            margin: auto;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+        }
+        h1 {
+            margin-bottom: 25px;
+            color: #333;
+        }
+        .btn {
+            display: block;
+            padding: 15px;
+            margin: 15px 0;
+            background: #2F80ED;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 18px;
+        }
+        .btn:hover {
+            background: #1e60b8;
+        }
+        .danger {
+            background: #e63946;
+        }
+        .danger:hover {
+            background: #c42734;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>⚙️ Bot Control Dashboard</h1>
+
+    <a class="btn" href="/dashboard/messages">📄 View Messages</a>
+    <a class="btn" href="/dashboard/settings">✏️ Edit Responses</a>
+    <a class="btn danger" href="/dashboard/restart">🔄 Restart Bot</a>
+
+</div>
+
+</body>
+</html>
